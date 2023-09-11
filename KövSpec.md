@@ -7,10 +7,10 @@
    Ezen vicc posztokat a felhasználók értékelhetik, megjelenítve az értékelések számát és értékét.
 
 2. Jelenlegi helyzet 
-   
+
    Kovács Béla egy nagyon tehetséges vicc gyűjtő és költő, aki az összes szabadidejét a legjobb viccek feltárására és azok dokumentálására fordítja. Jelenleg papíron tárolja az eddig gyűjtött vicceit, és szóbeszéd segítségével bővíti a vicctárát. A füzetben a viccek a feljegyzés dátumával és annak a nevével akitől Béla hallotta a viccet vannak eltárolva. A viccek egy szóval vannak kategorizálva ( Székely, anyós, favicc).
 
-3. Vágyálom rendszer
+2. Vágyálom rendszer
 
    A célunk egy olyan közösségi portál létrehozása,
    mely egy egyszerű, intuitív felhasználói 
@@ -23,11 +23,13 @@
 
 
 
-4. Jelenlegi üzleti folyamatok
+3. Jelenlegi üzleti folyamatok
 
 5. Igényelt üzleti folyamatok
    - Online megjelenés
 
 6. A rendszerre vonatkozó szabályok
+   -
 
 7. Követelménylista
+   -
