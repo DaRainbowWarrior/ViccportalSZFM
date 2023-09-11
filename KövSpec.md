@@ -1,6 +1,7 @@
 # ViccPortál követelményspecifikáció
 
 1. Jelenlegi helyzet 
+   
    Kovács Béla egy nagyon tehetséges vicc gyűjtő és költő, aki az összes szabadidejét a legjobb viccek feltárására és azok dokumentálására fordítja. Jelenleg papíron tárolja az eddig gyűjtött vicceit, és szóbeszéd segítségével bővíti a vicctárát. A füzetben a viccek a feljegyzés dátumával és annak a nevével akitől Béla hallotta a viccet vannak eltárolva. A viccek egy szóval vannak kategorizálva ( Székely, anyós, favicc).
 
 2. Vágyálom rendszer
