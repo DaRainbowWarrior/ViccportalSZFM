@@ -31,5 +31,7 @@
    - Online megjelenés
 
 6. A rendszerre vonatkozó szabályok
+   -
 
 7. Követelménylista
+   -
