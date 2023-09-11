@@ -39,6 +39,7 @@
 
 6. A rendszerre vonatkozó szabályok
    -
+   A web felület szabványos ezközökkel készüljön, React és [INSERT DATABASE SOLUTION HERE] segítségével. A felhasználó adatkezelése a GDPR-nek ( General Data Protection Regulation ) meg kell feleljen. A dátumok éééé/hh/nn óó:pp formátumban kell megjelenjenek. A fiók nélküli felhasználók bejegyzései "Anonymous"-ként kell megjelenjenek.
 
 7. Követelménylista
    -
