@@ -6,6 +6,17 @@
 
 2. Vágyálom rendszer
 
+   A célunk egy olyan közösségi portál létrehozása,
+   mely egy egyszerű, intuitív felhasználói 
+   felület által kapcsolja össze felhasználóit
+   közösség által készített tartalmaival.
+
+   A vágyunk, hogy az oldalunkra lépve szimpla görgetéssel
+   eléri közösségünk összes tartalmát, könnyedén maga is
+   hozzátehessen a tartalmakhoz, értékelje őket.
+
+
+
 3. Jelenlegi üzleti folyamatok
 
 4. Igényelt üzleti folyamatok
