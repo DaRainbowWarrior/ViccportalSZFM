@@ -25,6 +25,13 @@
 
 3. Jelenlegi üzleti folyamatok
    -
+   1. Viccek nyilvántartása
+
+   2. Saját új vicc kitalálása: ihletés és vicc kitalálása után dátum megjegyzése => füzetbe való bejegyzés saját névvel
+
+   3. Új vicc feljegyzése: vicc meghalgatása, mesélő neve és dátum megjegyzése => füzetbe való bejegyzés
+
+   4. Vicc kategorizálása: viccet jellemző szó megkeresése => vicc mellé a kategória feljegyzése
 
 5. Igényelt üzleti folyamatok
    - 
