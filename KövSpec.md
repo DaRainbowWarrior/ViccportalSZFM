@@ -53,7 +53,7 @@
 ## Igényelt üzleti folyamatok modellje
    ![Igényelt üzleti folyamatok modellje](uzletimodell.drawio.png)
 ## A rendszerre vonatkozó szabályok
-
+A web felület szabványos ezközökkel készüljön, React és MongoDB segítségével. A felhasználó adatkezelése a GDPR-nek ( General Data Protection Regulation ) meg kell feleljen. A dátumok éééé/hh/nn óó:pp formátumban kell megjelenjenek. A fiók nélküli felhasználók bejegyzései "Anonymous"-ként kell megjelenjenek.
 ## Követelménylista
 | ID | Név                          | Kifejtés                                                                                               |
 |----|------------------------------|--------------------------------------------------------------------------------------------------------|
