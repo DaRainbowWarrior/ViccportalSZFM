@@ -36,7 +36,8 @@
 
 12. Telepítési terv
     -
+    Az alkalmazás webes felületen fut, ezért egy ajánlott böngésző telepítése után (Google Chrome, Firefox, Opera, Safari) után csak a link szükséges a csatlakozáshoz és a használathoz.
 
 13. Karbantartási terv
     -
-
+    Az alkalmazás karbantartását a felhasználók által jelentett problémák javítása, a háttérben futó szerver és adatbázis fenntartása jelenti. A kliens kérésére módosítások illetve fejlesztések megbeszélés után létre jöhetnek.
