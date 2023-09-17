@@ -23,7 +23,6 @@
     * Nincsenek megvásárolt komponenseink.
     * Fejlesztői eszközök:
         * Visual Studio Code
-        * GitHub Desktop
         * Draw.io
 
 7. Absztrakt domain modell
