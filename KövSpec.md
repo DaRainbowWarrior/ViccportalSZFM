@@ -48,7 +48,7 @@
    - Szeretném látni a felhasználók értékeléseit a vicceimre vonatkozóan. Ez lehetővé teszi, hogy lássam, milyenek a reakciók a vicceimre, például lájkok vagy diszlike-ok formájában.
 
 5. **Viccek Böngészése:**
-   - Az oldalon könnyen és hatékonyan szeretnék vicceket böngészni. Kategóriák, címkék segítségével szeretném megtalálni a számomra legérdekesebb vicceket.
+   - Az oldalon könnyen és hatékonyan szeretnék vicceket böngészni. Kategóriák, címkék segítségével szeretném megtalálni a számomra legérdekesebb vicceket.y
 
 ## Igényelt üzleti folyamatok modellje
    ![Igényelt üzleti folyamatok modellje](uzletimodell.drawio.png)
