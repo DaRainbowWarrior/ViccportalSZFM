@@ -18,6 +18,13 @@
 
 6. Fizikai környezet
     -
+    * Az alkalmazás webes felületre készült, kizárólag PC (számítógép) eszközökre
+    * Van tűzfal a hálózaton és minden portot is engedélyez.
+    * Nincsenek megvásárolt komponenseink.
+    * Fejlesztői eszközök:
+        * Visual Studio Code
+        * GitHub Desktop
+        * Draw.io
 
 7. Absztrakt domain modell
     -
