@@ -27,15 +27,20 @@ A viccportál létrehozásának fő célja egy vidám, barátságos és interakt
 
 A viccportál létrehozására az alábbi okokból van szükség:
 
-- **Szórakoztatás és Kikapcsolódás**: Az emberek mindennapjaik során gyakran szembesülnek stresszel és nyomással. Ebben a gyors tempójú világban szükség van olyan platformokra, amelyek lehetőséget kínálnak a humor és a nevetés által való kikapcsolódásra. A viccportál ezt a szórakoztatási és kikapcsolódási igényt kívánja kielégíteni.
+- **Szórakoztatás és Kikapcsolódás** 
+    * Az emberek mindennapjaik során gyakran szembesülnek stresszel és nyomással. Ebben a gyors tempójú világban szükség van olyan platformokra, amelyek lehetőséget kínálnak a humor és a nevetés által való kikapcsolódásra. A viccportál ezt a szórakoztatási és kikapcsolódási igényt kívánja kielégíteni.
 
-- **Közösség és Interakció**: A humort és vicceket gyakran megosztják barátok és családtagok között. A viccportál egy olyan közösségi platformot teremt, ahol a felhasználók interakcióba léphetnek egymással, megoszthatják saját humoros történeteiket és értékelhetik mások vicceit. Ez elősegíti az online közösség és szórakoztatás összekapcsolását.
+- **Közösség és Interakció** 
+    * A humort és vicceket gyakran megosztják barátok és családtagok között. A viccportál egy olyan közösségi platformot teremt, ahol a felhasználók interakcióba léphetnek egymással, megoszthatják saját humoros történeteiket és értékelhetik mások vicceit. Ez elősegíti az online közösség és szórakoztatás összekapcsolását.
 
-- **Humor Terjedése**: A viccportál lehetőséget biztosít a felhasználóknak arra, hogy vicceket terjesszenek és megosszanak. Ez hozzájárul a humor terjedéséhez és az emberek közötti pozitív kötődés kialakításához.
+- **Humor Terjedése**
+    * A viccportál lehetőséget biztosít a felhasználóknak arra, hogy vicceket terjesszenek és megosszanak. Ez hozzájárul a humor terjedéséhez és az emberek közötti pozitív kötődés kialakításához.
 
-- **Hozzáférés Bárhonnan**: A viccportál a szórakoztató tartalmakhoz való hozzáférést bárki számára lehetővé teszi, bármely eszközön, legyen az számítógép, tablet vagy mobiltelefon. Ez a rugalmasság segít abban, hogy minél több ember számára elérhető legyen a humoros tartalom.
+- **Hozzáférés Bárhonnan** 
+    * A viccportál a szórakoztató tartalmakhoz való hozzáférést bárki számára lehetővé teszi, bármely eszközön, legyen az számítógép, tablet vagy mobiltelefon. Ez a rugalmasság segít abban, hogy minél több ember számára elérhető legyen a humoros tartalom.
 
-- **Ingyenes Használat**: A viccportál ingyenesen elérhető és használható mindenki számára, így nincsenek akadályok a szórakozás és humor megosztása előtt.
+- **Ingyenes Használat**
+    * A viccportál ingyenesen elérhető és használható mindenki számára, így nincsenek akadályok a szórakozás és humor megosztása előtt.
 
 ## Követelménylista
 
