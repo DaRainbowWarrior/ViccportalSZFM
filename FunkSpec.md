@@ -46,12 +46,14 @@ A viccportál létrehozására az alábbi okokból van szükség:
 
 | ID | Név                          | Kifejtés                                                                                               |
 |----|------------------------------|--------------------------------------------------------------------------------------------------------|
-| k1 | Viccek megjelenítése          | A programnak könnyen érthető módon meg kell jelenítenie a vicceket a felhasználóknak közösségi média szerű idővonal által.               |
-| k2 | Vicc kategóriák kezelése      | A viccportálnak lehetőséget kell biztosítania viccek csoportosítására kategóriákba, ezeket Tag-ekkel valósítjuk meg. |
-| k3 | Vicc hozzáadása               | A felhasználóknak képesnek kell lenniük vicceket hozzáadni a portálhoz, amelyek megjelennek az adott kategóriában. |
-| k4 | Vicc értékelése               | A felhasználóknak lehetőséget kell biztosítani az egyes viccek értékelésére, például "tetszik" vagy "nem tetszik" gombokkal. |
-| k5 | Vicc megosztása               | A felhasználóknak lehetőséget kell biztosítani a viccek közösségi médiában történő megosztására.         |
-| k6 | Felhasználói értékelések      | A programnak képesnek kell lennie követni a felhasználók viccekkel kapcsolatos értékeléseit, és ezt visszaállítani azoknak, akik visszaélnek az értékelési lehetőséggel. |
+| k1 | Felhasználó regisztrálás.     | A programnak lehetőséget kell nyújtania a felhasználóknak regisztrálni, felhasználónevet és jelszót használva.
+| k2 | Viccek megjelenítése          | A programnak könnyen érthető módon meg kell jelenítenie a vicceket a felhasználóknak közösségi média szerű idővonal által.               |
+| k3 | Vicc kategóriák kezelése      | A viccportálnak lehetőséget kell biztosítania viccek csoportosítására kategóriákba, ezeket Tag-ekkel valósítjuk meg. |
+| k4 | Vicc hozzáadása felhasználói fiókkal  | A felhasználóknak, belépve a fiókjukba, képesnek kell lenniük vicceket hozzáadni a portálhoz, amelyek megjelennek az adott kategóriában, a felhasználónevükkel mint feltöltő. |
+| k4.5 | Vicc hozzáadása anonimként  | A felhasználóknak, belépve a fiókjukba, képesnek kell lenniük vicceket hozzáadni a portálhoz, amelyek megjelennek az adott kategóriában, a feltöltő nevénél "Anonymous"-ként. |
+| k5 | Vicc értékelése               | A felhasználóknak lehetőséget kell biztosítani az egyes viccek értékelésére, például "tetszik" vagy "nem tetszik" gombokkal. |
+| k6 | Vicc megosztása               | A felhasználóknak lehetőséget kell biztosítani a viccek közösségi médiában történő megosztására.         |
+| k7 | Felhasználói értékelések      | A programnak képesnek kell lennie követni a felhasználók viccekkel kapcsolatos értékeléseit, és ezt visszaállítani azoknak, akik visszaélnek az értékelési lehetőséggel. |
 
 ## Használati esetek
 
