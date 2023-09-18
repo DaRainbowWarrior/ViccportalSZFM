@@ -74,4 +74,17 @@ A viccportál használati eseteit a különböző felhasználói szerepkörök a
 - **Regisztráció**: Felhasználók regisztrálhatnak a felhasználónév és jelszó segítségével.
 
 ## Képernyő Tervek:
-![Képernyő terv](tervKepernyo.drawio.png)
+**Főoldal**:
+
+![Főoldal terv](tervKepernyo.drawio.png)
+
+**Bejelentkezési oldal**:
+
+![Bejelentkezési oldal terv](loginpage.drawio.png)
+
+**Regisztrációs oldal**:
+
+![Regiszrációs oldal terv](registerpage.drawio.png)
+
+
+
