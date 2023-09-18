@@ -3,19 +3,25 @@
 ## Áttekintés
 A viccportál egy olyan online platformot jelent, amely a felhasználók szórakoztatását és humorral való kikapcsolódását tűzi ki célul. Az alábbiakban bemutatjuk a projekt általános célját és funkcionális jellemzőit:
 
-- **Cél és Szándék**: A viccportál célja a felhasználók szórakoztatása és humorral való kikapcsolódás lehetőségének biztosítása. Az alapvető szándék az, hogy egy olyan online közösségi platformot hozzunk létre, ahol vicceket lehet olvasni, megosztani és értékelni.
+- **Cél és Szándék**
+    * A viccportál célja a felhasználók szórakoztatása és humorral való kikapcsolódás lehetőségének biztosítása. Az alapvető szándék az, hogy egy olyan online közösségi platformot hozzunk létre, ahol vicceket lehet olvasni, megosztani és értékelni, ezeket kategorizálni tartalmuk szerint és a viccek között szűrni tartalmuk szerint.
 
-- **Viccek és Humor**: A felhasználóknak lehetőségük lesz könnyedén böngészni és olvasni különböző kategóriákba sorolt vicceket. A cél a jókedv, a humor és a nevetés elősegítése.
+- **Viccek és Humor**
+    * A felhasználóknak lehetőségük lesz könnyedén böngészni és olvasni különböző kategóriákba sorolt vicceket. A cél a jókedv, a humor és a nevetés elősegítése, valamint a kliens viccgyűjteményének tartósítása és megosztása a világgal.
 
-- **Kategóriák és Tartalom**: A viccportálon különböző kategóriákba sorolt viccek találhatók, így mindenki megtalálhatja a neki tetsző és érdeklődési körének megfelelő tartalmat.
+- **Kategóriák és Tartalom**
+    * A viccportálon különböző kategóriákba sorolt viccek találhatók, így mindenki megtalálhatja a neki tetsző és érdeklődési körének megfelelő tartalmat, és szűrők segítségével csak az általa kedvelt vicceket böngészheti.
 
-- **Felhasználói Közösség**: A portál egy közösségi platformként is működik, lehetőséget biztosítva a felhasználóknak a viccek megosztására és értékelésére. A felhasználók interakciója és visszajelzései fontosak a közösségi élmény szempontjából.
+- **Felhasználói Közösség**
+    * A portál egy közösségi platformként is működik, lehetőséget biztosítva a felhasználóknak a viccek megosztására és értékelésére és kategorizálására. A felhasználók interakciója és visszajelzései fontosak a közösségi élmény szempontjából.
 
-- **Hozzáférés Bárhonnan**: A viccportál weben elérhető lesz, így beleértve a számítógépeket, tableteket és mobiltelefonokat is, hogy minél több felhasználó számára legyen hozzáférhető.
+- **Hozzáférés Bárhonnan** 
+    * A viccportál weben elérhető lesz, így beleértve a számítógépeket, tableteket és mobiltelefonokat is, hogy minél több felhasználó számára legyen hozzáférhető. A webfelület kizárólagosan számítógépre lett tervezve, ezért mobilkészülékeken használata nehezebnek bizonyulhat.
 
-- **Ingyenes Regisztráció és Használat**: A rendszer ingyenesen elérhető és használható, így bárki bárhonnan könnyedén hozzáférhet a humoros tartalmakhoz.
+- **Ingyenes Regisztráció és Használat** 
+    * A rendszer ingyenesen elérhető és használható, regisztrációhoz csak egy felhasználónévre és jelszóra van szükség, így bárki bárhonnan könnyedén hozzáférhet a humoros tartalmakhoz.
 
-A viccportál létrehozásának fő célja egy vidám, barátságos és interaktív közösség kialakítása, amely elősegíti a jókedvet és a nevetést a felhasználók számára.
+A viccportál létrehozásának fő célja egy vidám, barátságos és interaktív közösség kialakítása, amely elősegíti a jókedvet és a nevetést a felhasználók számára, valamint a kliens jelenleg papíron tárolt vicc gyűjteményének tartósítása és megosztása a világgal, valamint ennek bővítése.
 
 ## Jelenlegi helyzet - Viccportál
 
