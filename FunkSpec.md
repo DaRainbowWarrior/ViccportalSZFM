@@ -74,17 +74,20 @@ A viccportál használati eseteit a különböző felhasználói szerepkörök a
 - **Regisztráció**: Felhasználók regisztrálhatnak a felhasználónév és jelszó segítségével.
 
 ## Képernyő Tervek:
-**Főoldal**:
+- **Főoldal**:
+    * A főoldalon a viccek egy folyamatos listája fog szerepelni, ami addig görgethető, míg ezek el nem fogynak. Alapértelmezett módon minden vicc kategória látható lesz, ami majd a szűrőkkel változtatható lesz témánként. A vicceket tartalmazó kerekített téglalapok jobb alsó sarkában fognak szerepelni az értékelés gombok, egy fel és egy le mutató nyíl alakjában. Közöttük egy számlálóval ami az értéket mutassa (ez az érték eggyel csökken egy rossz értékelés esetén, és eggyel növekszik egy jó értékelés esetén - a szám negatív is lehet). Az oldal jobb felső sarkán lesz található a felhasználó fiók, egy, a felhasználónevet tartalmazó gomb alakjában.
 
-![Főoldal terv](tervKepernyo.drawio.png)
+    * ![Főoldal terv](tervKepernyo.drawio.png)
 
-**Bejelentkezési oldal**:
+- **Bejelentkezési oldal**:
+    * A bejelentkezési oldal egy lebegő, kerekített téglalapból áll, ahol 2 mező látható: az elsőbe a felhasználónevet, a másodikba a jelszót beírva jelentkezhet be a felhasználó a fiókjába. Az alatta lévő "Bejelentkezés" gomb megnyomása kezdeményezi a bejelentkezési folyamatot (ez a gomb továbbirányít a főoldalra). Ha a felhasználónak még nincs fiókja, a "Bejelentkezés" gomb alatt lévő "Regisztrációs" gombra nyomva létrehozhat egy saját fiókot (ez a gomb továbbirányít a regisztrációs oldalra).
 
-![Bejelentkezési oldal terv](loginpage.drawio.png)
+    * ![Bejelentkezési oldal terv](loginpage.drawio.png)
 
-**Regisztrációs oldal**:
+- **Regisztrációs oldal**:
+    * A regisztrációs oldal egy lebegő, kerekített téglalapból áll, ahol 2 mező látható: az elsőbe egy felhasználónevet, a másodikba egy jelszót beírva készíthet a felhasználó egy saját felhasználói fiókot. Az alatta lévő "Regisztrálás" gomb megnyomása kezdeményezi a regisztrálási folyamatot (ez a gomb továbbirányít a főoldalra). Ha a felhasználónak már van fiókja, a "Regisztrációs" gomb alatt lévő "Bejelentkezés" gombra nyomva bejelentkezhet saját fiókjába (ez a gomb továbbirányít a bejelentkezés oldalra).
 
-![Regiszrációs oldal terv](registerpage.drawio.png)
+    * ![Regiszrációs oldal terv](registerpage.drawio.png)
 
 
 
