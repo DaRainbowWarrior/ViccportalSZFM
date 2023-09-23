@@ -4,6 +4,16 @@
 
 ### GET
 
+- `/users/:id` gives back user of `id`
+
+```javascript
+{
+    "_id":,
+    "username",
+    "email"
+}
+```
+
 - `/users` gives back all users in database
 
     ```javascript
@@ -48,7 +58,7 @@ Post Body:
 
 Post Body:
 
-```javascript
+```json
 {
     "ratingType" --Acceptable value: "like" or "dislike"
 }
@@ -77,7 +87,6 @@ Post Body:
     },
     "_id",
     "username",
-    "email",
-    "__v"
+    "email"
 }
 ```
