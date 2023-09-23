@@ -55,6 +55,39 @@
 
 4. Követelmények
     -
+    Ezeket az üzleti folyamatokat szeretnénk mindenképpen megvalósítani, hogy a rendszer kész és használható legyen:
+
+    **Funkcionális követelmények:**
+
+    **Regisztráció:**
+    - A felhasználónak kell tudnia egy saját fiókot létrehoznia, egy tetszőleges felhasználónév és jelszó felhasználásával.  
+
+    **Bejelentkezés:**
+   - A felhasználónak be kell tudnia jelentkezni a saját fiókjába, a regisztrációnál megadott felhasználónév és jelszó segítségével,
+
+    **Vicc Posztolás Fiókba bejelentkezve:**
+   - A felhasználónak lehetősége kell legyen a fiókjába belépve, a saját felhasználónevéhez csatolva egy viccet feltölteni az oldalra.
+
+    **Vicc Posztolás anonimként:**
+    - A felhasználónak lehetősége kell legyen anonim módon, "Anonymous" felhasználónévhez csatolva egy viccet feltölteni az oldalra.
+
+    **Vicc Értékelés:**
+   - A felhasználóknak lehetőségük kell legyen arra, hogy bejelentkezve a fiókjukba, vagy anonim módon értékelni más felhaszálók által posztolt vicceket értékelni pozitívan vagy negatívan.
+
+    **Viccek Kategorizálása:**
+    - A felhasználónak lehetősége kell legyen, bejelentkezve fiókjába vagy anonim módon, vicce posztolása előtt, egy kategóriát adni a viccnek, hogy más felhasználók szűrők segítségével könnyen megtalálhassák.
+
+    **Viccek szűrése:**
+    - A felhasználónak lehetősége kell legyen, bejelentkezve fiókjába, vagy anonim módon, kategóriák, posztolási idő vagy értékelés alapján szűrni a vicceket és csak azokat látni, amelyek megfelelnek ezeknek a kategóriáknak.
+
+    **Nem funkcionális követelmények:**
+
+    **Adatvédelem**
+    - Az oldalon bejelentkezett, fiókkal rendelkező felhasználók csakis a saját maguk által posztolt vicceket tudják módosítani, azaz szerkeszthetik vagy frissíthetik azokat. Ez azt jelenti, hogy minden felhasználó kizárólagos jogot élvez az általa közzétett tartalmakhoz, és csak ők rendelkeznek jogosultsággal azok módosításához vagy javításához. Ezenkívül csak a saját maguk által posztolt viccekhez tudnak tulajdonítani kategóriákat vagy címkéket.  Ezzel együtt a rendszer biztosítja, hogy minden felhasználó teljes kontrollal rendelkezzen saját tartalmai felett.
+
+    - A rendszer fejlesztői, illetve karbantartói semmilyen személyes információhoz ne férjenek hozzá a felhasználóktól, mint például a fiókok jelszavaihoz vagy más érzékeny adatokhoz. Az ilyen adatok teljes biztonságban kell maradniuk, és nem szabad megengedni, hogy bárki is jogosulatlanul hozzáférjen hozzájuk.
+
+    - A rendszernek meg kell felelnie a GDPR-nek, vagyis az Európai Unió által meghatározott Általános Adatvédelmi Rendeletnek. Ez azt jelenti, hogy az alkalmazásnak vagy rendszernek szigorú adatvédelmi és adatkezelési szabályoknak kell megfelelnie annak érdekében, hogy biztosítsa a felhasználók személyes adatainak biztonságát és magánéleti jogainak védelmét. A GDPR előírja, hogy a felhasználóknak teljes átláthatóságot kell biztosítani az adatok gyűjtése és kezelése terén, és csak azokat az adatokat lehet felhasználni, amelyekhez a felhasználók kifejezetten hozzájárultak. Emellett a rendszernek képesnek kell lennie az adatok védelmére és az adatvesztés megelőzésére, és meg kell felelnie azoknak a jogi kötelezettségeknek, amelyek az adatok kezelésével kapcsolatban előírásokat tartalmaznak. 
 
 5. Funkcionális terv
     -
