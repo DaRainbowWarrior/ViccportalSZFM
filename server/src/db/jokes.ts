@@ -29,6 +29,7 @@ export const JokeModel = mongoose.model('Joke', JokeSchema);
 export const getJokes = () => JokeModel.find();
 export const getJokeById = (id:string) => JokeModel.findById(id)
 export const getJokeByTag = (tagToFilterBy: Array<string>) => JokeModel.find({tags: tagToFilterBy})
+export const getJokesByAuthorId = (authId: string) =>JokeModel.find({authorId:authId});
 export const createJoke = (values: Record<string,any>) => new JokeModel(values).save().then((joke)=>joke.toObject());
 export const rateJoke = (isLike: boolean, id: string)=>{
     let joke = null;

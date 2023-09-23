@@ -1,5 +1,5 @@
 import { get } from 'lodash';
-import { createJoke, deleteJokeById, getJokeById, getJokes, rateJoke } from '../db/jokes';
+import { createJoke, deleteJokeById, getJokeById, getJokes, getJokesByAuthorId, rateJoke } from '../db/jokes';
 import express from 'express'
 
 export const getAllJokes =async (req:express.Request, res:express.Response) => {
@@ -74,6 +74,19 @@ export const deleteJoke = async (req:express.Request, res:express.Response) => {
         const deletedUser = await deleteJokeById(id);
 
         return res.json(deletedUser);
+    } catch (error) {
+        console.log(error);
+        return res.sendStatus(400)
+    }
+}
+
+export const getAllJokesByUserId = async (req:express.Request, res:express.Response) => {
+    try {
+        const {id} = req.params;
+
+        const jokesOfUser = await getJokesByAuthorId(id);
+
+        return res.json(jokesOfUser);
     } catch (error) {
         console.log(error);
         return res.sendStatus(400)
