@@ -114,7 +114,11 @@
 
 10. Implementációs terv
     -
+    - A rendszer webes felülete HTML, CSS és JavaScript nyelven fog készülni, a React keretrendszer segítségével. Az alkalmazás egy React App formájában fog létrejönni, amely egybevonja ennek a három nyelvnek a használatát egy fájlban, így rendkívül átlátható és könnyen követhető lesz a kódstruktúra. Az egyes nyelvek kombinálása lehetővé teszi számunkra, hogy dinamikus és interaktív felhasználói felületet hozzunk létre.
 
+    - Ezenkívül az alkalmazás képes lesz hatékonyan kommunikálni a backendben jelenlévő adatbázisokkal. A szerveroldali adatbázisokhoz való könnyű és hatékony hozzáférés lehetővé teszi az alkalmazásnak, hogy dinamikusan frissítse és jelenítse meg a tartalmat a felhasználók számára. Ezáltal a felhasználók számára egy gyors és reaktív élményt nyújtva.
+
+    - A HTML, CSS és JavaScript kombinálása a React keretrendszerrel alkalmazásának  rugalmas felépítését teszi lehetővé, amely lehetővé teszi a felhasználók számára az egyszerű interakciót az alkalmazásban, miközben a háttérben az adatok hatékonyan kezelhetők és frissíthetők.
 
 11. Tesztterv
     -
