@@ -61,9 +61,9 @@
 
 6. Fizikai környezet
     -
-    * Az alkalmazás webes felületre készült, kizárólag PC (számítógép) eszközökre
+    * Az alkalmazás webes felületre készült, kizárólag PC (számítógép) eszközökre, de minden modern internet-képes ezközön hozzáférhető és használható az oldal
     * Van tűzfal a hálózaton és minden portot is engedélyez.
-    * Nincsenek megvásárolt komponenseink.
+    * Megvásárolt komponenseneket nem használ az alkalmazás; minden saját fejlesztésű vagy ingyenesen használható komponens
     * Fejlesztői eszközök:
         * Visual Studio Code
         * Github
@@ -75,14 +75,17 @@
 8. Architekturális terv
     -
 
+
 9. Adatbázis terv
     -
 
 10. Implementációs terv
     -
 
+
 11. Tesztterv
     -
+
 
 12. Telepítési terv
     -
