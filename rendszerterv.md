@@ -32,8 +32,26 @@
     * A kész rendszer tesztelése
     * A test log kitöltése
 
+    **Határidők**
+
+    | Mérföldkő | Határidő |
+    |-----------|----------|
+    | A funkcionális terv megírása | Szept. 11 |
+    | A rendszerterv megírása és bemutatása a kliensnek | Szept. 18 |
+    | Az adatbázisok létrehozása | Szept. 25 |
+    | Az adatbázisok kommunikálásához szükséges rendszerek megírása| Szept. 25 |
+    | A főoldal megszerkeztése | Szept. 25 |
+    | A vicc hozzáadási rendszer összekötése az adatbázissal | Szept. 25 |
+    | A Bejelentkezési / Regisztrációs oldal megszerkeztése | Szept. 25 |
+    | A Bejelentkezési / Regisztrációs oldal összekötése az adatbázissal | Szept. 25 |
+    | A kész rendszerek összekötése | Szept. 25 |
+    | A kész rendszer tesztelése | Szept. 25 |
+    | A test log kitöltése | Szept. 25 |
+
+
 3. Üzleti folyamatok modellje
     -
+    
 
 4. Követelmények
     -
