@@ -28,6 +28,8 @@
     }
     ```
 
+- `/jokes/user/:id` gives back all jokes made by user of `id`
+
 ### POST
 
 - `/jokes` creates a joke, only logged in users can create posts
