@@ -60,10 +60,10 @@
     **Funkcionális követelmények:**
 
     **Regisztráció:**
-    - A felhasználónak kell tudnia egy saját fiókot létrehoznia, egy tetszőleges felhasználónév és jelszó felhasználásával.  
+    - A felhasználónak kell tudnia egy saját fiókot létrehoznia, egy tetszőleges felhasználónév és jelszó felhasználásával. Egy felhasználónév egyszerre csak egy alkalommal lehet regisztrálva, ezzel biztosítva minden összezavarodás elkerülését.
 
     **Bejelentkezés:**
-   - A felhasználónak be kell tudnia jelentkezni a saját fiókjába, a regisztrációnál megadott felhasználónév és jelszó segítségével,
+   - A felhasználónak be kell tudnia jelentkezni a saját fiókjába, a regisztrációnál megadott felhasználónév és jelszó segítségével
 
     **Vicc Posztolás Fiókba bejelentkezve:**
    - A felhasználónak lehetősége kell legyen a fiókjába belépve, a saját felhasználónevéhez csatolva egy viccet feltölteni az oldalra.
