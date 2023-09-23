@@ -23,7 +23,7 @@
     }
     ```
 ### POST
-- `/jokes` creates a joke
+- `/jokes` creates a joke, only logged in users can create posts
 
 Post Body:
 ```
@@ -31,6 +31,16 @@ Post Body:
     "title",
     "description",
     "author" --Optional
+}
+```
+
+- `/jokes/:id/rate` gives a joke a like/dislike, only logged in users can rate
+
+Post Body:
+
+```
+{
+    "ratingType" --Acceptable value: "like" or "dislike"
 }
 ```
 
