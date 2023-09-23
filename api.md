@@ -45,7 +45,7 @@ Post Body:
 ```
 
 - `/auth/login` logs in a user
-    - Sends back a json object, the sessionToken can be used for retaining user data
+    - when a user logs in, a `J-AUTH` cookie gets stored, that allows a user to create a joke, and delete his account if wanted to
 ```
 {
     "authentication": {
