@@ -50,7 +50,8 @@ Post Body:
 {
     "title",
     "description",
-    "author" --Optional
+    "author" --Optional,
+    "tags" --Optional
 }
 ```
 
