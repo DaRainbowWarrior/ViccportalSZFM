@@ -101,13 +101,10 @@ export const getJokesPaginated =async (req:express.Request, res:express.Response
     
         const skip = (pageNumber - 1) * limitNumber;
     
-        // Query the database for paginated data
         const data = await getJokesWithPagination(skip, limitNumber);
     
-        // Get the total count of records for pagination metadata
         const totalCount = await getCountOfJokes();
     
-        // Calculate pagination metadata
         const totalPages = Math.ceil(totalCount / limitNumber);
     
         const pagination = {
