@@ -51,3 +51,5 @@ export const rateJoke = (isLike: boolean, id: string)=>{
     return joke;
 }
 export const deleteJokeById = (id:string)=> JokeModel.findByIdAndRemove({_id:id})
+export const getCountOfJokes = ()=> JokeModel.count();
+export const getJokesWithPagination=(skip:number,limit:number)=>JokeModel.find().skip(skip).limit(limit);

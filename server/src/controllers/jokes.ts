@@ -1,5 +1,5 @@
 import { get } from 'lodash';
-import { createJoke, deleteJokeById, getJokeById, getJokes, getJokesByAuthorId, rateJoke } from '../db/jokes';
+import { createJoke, deleteJokeById, getCountOfJokes, getJokeById, getJokes, getJokesByAuthorId, getJokesWithPagination, rateJoke } from '../db/jokes';
 import express from 'express'
 
 export const getAllJokes =async (req:express.Request, res:express.Response) => {
@@ -87,6 +87,36 @@ export const getAllJokesByUserId = async (req:express.Request, res:express.Respo
         const jokesOfUser = await getJokesByAuthorId(id);
 
         return res.json(jokesOfUser);
+    } catch (error) {
+        console.log(error);
+        return res.sendStatus(400)
+    }
+}
+
+export const getJokesPaginated =async (req:express.Request, res:express.Response) => {
+    try {
+        const { page = 1, limit = 10 } = req.query;
+        const pageNumber = parseInt(page as string);
+        const limitNumber = parseInt(limit as string);
+    
+        const skip = (pageNumber - 1) * limitNumber;
+    
+        // Query the database for paginated data
+        const data = await getJokesWithPagination(skip, limitNumber);
+    
+        // Get the total count of records for pagination metadata
+        const totalCount = await getCountOfJokes();
+    
+        // Calculate pagination metadata
+        const totalPages = Math.ceil(totalCount / limitNumber);
+    
+        const pagination = {
+          totalItems: totalCount,
+          totalPages,
+          currentPage: pageNumber,
+        };
+    
+        res.json({ data, pagination });
     } catch (error) {
         console.log(error);
         return res.sendStatus(400)
