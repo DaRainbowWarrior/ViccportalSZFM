@@ -1,15 +1,15 @@
 import Timeline from '../components/Timeline'
 import {Container} from '@mui/material'
-import { useNavigate } from 'react-router-dom'
+
+import TopBar from './TopBar';
 
 function Home() {
 
-  const nav = useNavigate();
+
   return (
     <>
-    <Container>
-      <button onClick={()=>nav('/login')}>Login</button>
-      <button onClick={()=>nav('/register')}>Register</button>
+    <TopBar/>
+    <Container sx={{marginTop: 5}}>
       <Timeline/>
     </Container>
     </>

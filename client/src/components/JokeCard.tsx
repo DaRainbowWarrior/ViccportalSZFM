@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {Card, CardContent, Typography, IconButton, List, ListItem, Paper} from '@mui/material'
+import {Card, CardContent, Typography, IconButton, List, ListItem, Paper, Stack, Container} from '@mui/material'
 import { Joke } from './Timeline'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
@@ -31,15 +31,15 @@ function JokeCard({title,author,description,dislikes,likes,tags}:Joke) {
           <ArrowDownwardIcon/>
           {isDisliked ? dislikes+1 : dislikes} 
         </IconButton>
-    <List>
-      {tags.map((text, index) =>{
-        return (
-        <ListItem key={index}>
-          <Paper>{text}</Paper>
-        </ListItem>
-        )
-      })}
-    </List>
+    <CardContent>
+      <Stack direction={'row'} gap={1} >
+        {tags == null ? null : tags.map((text, index) =>{
+          return (
+            <Paper sx={{padding: 1}} key={index}>{text}</Paper>
+          )
+        })}
+      </Stack>
+    </CardContent>
     </Card>
   )
 }

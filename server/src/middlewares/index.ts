@@ -4,7 +4,7 @@ import {get,merge} from 'lodash'
 
 export const isAuthed = async (req: express.Request, res: express.Response, next: express.NextFunction) => {
   try {
-    const sessionToken = req.cookies['J-AUTH'];
+    const sessionToken = req.headers.authorization;
 
     if (!sessionToken) {
       return res.sendStatus(403);

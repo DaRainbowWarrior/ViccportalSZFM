@@ -56,7 +56,9 @@ function Timeline() {
     setLoading(true);
 
     fetch(`http://localhost:6969/jokes/pages?page=${page}&limit=5`)
-      .then((response) => response.json())
+      .then((response) => {
+        console.log(response)
+        return response.json()})
       .then((newData) => {
         console.log(newData)
         setTimelineData([...timelineData, ...newData.data]);

@@ -8,28 +8,33 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../utils/auth';
+import TopBar from './TopBar';
 
 export default function SignIn() {
     const navigate = useNavigate();
-
+    const { login} = useAuth();
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log(data.get("email"))
-    const requestOptions = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({email: data.get("email"), password: data.get("password")})
-    };
-    fetch('http://localhost:6969/auth/login', requestOptions)
-        .then(response => response.json())
-        .then(data =>{
-             console.log(data)
-            navigate('/');
-        });
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+      console.log(data.get("email"))
+      const requestOptions = {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({email: data.get("email"), password: data.get("password")})
+      };
+      fetch('http://localhost:6969/auth/login', requestOptions)
+          .then(response => response.json())
+          .then(data =>{
+              console.log(data)
+              login(data);
+              navigate('/');
+          });
     };
 
   return (
+    <>
+    <TopBar/>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
@@ -78,5 +83,6 @@ export default function SignIn() {
           </Box>
         </Box>
       </Container>
+    </>
   );
 }

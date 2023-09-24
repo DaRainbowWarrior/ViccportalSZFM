@@ -21,12 +21,15 @@ const JokeSchema = new mongoose.Schema({
     },
     dislikes:{
         type: Number, default: 0,
+    },
+    date:{
+        type: Date, default: Date.now
     }
 })
 
 export const JokeModel = mongoose.model('Joke', JokeSchema);
 
-export const getJokes = () => JokeModel.find();
+export const getJokes = () => JokeModel.find().sort({date:-1});
 export const getJokeById = (id:string) => JokeModel.findById(id)
 export const getJokeByTag = (tagToFilterBy: Array<string>) => JokeModel.find({tags: tagToFilterBy})
 export const getJokesByAuthorId = (authId: string) =>JokeModel.find({authorId:authId});
@@ -52,4 +55,4 @@ export const rateJoke = (isLike: boolean, id: string)=>{
 }
 export const deleteJokeById = (id:string)=> JokeModel.findByIdAndRemove({_id:id})
 export const getCountOfJokes = ()=> JokeModel.count();
-export const getJokesWithPagination=(skip:number,limit:number)=>JokeModel.find().skip(skip).limit(limit);
+export const getJokesWithPagination=(skip:number,limit:number)=>JokeModel.find().sort({date:-1}).skip(skip).limit(limit);
