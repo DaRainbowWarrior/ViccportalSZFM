@@ -1,2 +1,2 @@
 # Viccportál
-Egy anonim vicc megosztó portál, a ViccSZFM néven.
+Egy vicc megosztó portál, a ViccSZFM néven.
