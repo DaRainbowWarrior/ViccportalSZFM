@@ -16,7 +16,7 @@ function Timeline() {
   const [timelineData, setTimelineData] = useState<Joke[]>([]);
   const [page, setPage] = useState<number>(1);
   const [loading, setLoading] = useState<boolean>(false);
-    const [isBottom, setIsBottom] = useState(false);
+  const [isBottom, setIsBottom] = useState(false);
 
     const handleScroll = () => {
         const windowHeight = window.innerHeight;

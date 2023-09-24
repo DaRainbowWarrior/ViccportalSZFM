@@ -1,16 +1,23 @@
 import './App.css'
-import Timeline from './components/Timeline'
-import {Container} from '@mui/material'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import LoginPage from './pages/LoginPage';
+import Register from './pages/Register';
 
 function App() {
 
   return (
-    <>
-    <Container>
-      <Timeline/>
-    </Container>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path='/login' element={<LoginPage />}/>
+          <Route path='/register' element={<Register />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App

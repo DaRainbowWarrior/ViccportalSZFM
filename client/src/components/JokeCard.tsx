@@ -1,6 +1,8 @@
 import {useState} from 'react'
 import {Card, CardContent, Typography, IconButton, List, ListItem, Paper} from '@mui/material'
 import { Joke } from './Timeline'
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 function JokeCard({title,author,description,dislikes,likes,tags}:Joke) {
   const [isLiked, setIsLiked] = useState(false);
@@ -22,9 +24,11 @@ function JokeCard({title,author,description,dislikes,likes,tags}:Joke) {
 
       </CardContent>
         <IconButton onClick={()=>setIsLiked(prev => !prev)}>
-          {isLiked ? likes+1 : likes }
+          {isLiked ? likes+1  : likes }
+          <ArrowUpwardIcon/>
         </IconButton>
         <IconButton onClick={()=>setIsDisliked(prev => !prev)}>
+          <ArrowDownwardIcon/>
           {isDisliked ? dislikes+1 : dislikes} 
         </IconButton>
     <List>
