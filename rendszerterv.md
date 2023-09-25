@@ -108,10 +108,10 @@
 8. Architekturális terv
     -
     **Backend**
-    - TODO: Rake pls írd le mit csináltál az adatbázis szinten xd
+    - 
 
     **Frontend**
-    - A web alkalmazás React keretrendszer felhasználásával készül el. TODO: Ide is már xd (valami ilyesmit : )
+    - 
 
 9. Adatbázis terv
     -
