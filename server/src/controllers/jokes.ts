@@ -14,7 +14,7 @@ export const getAllJokes =async (req:express.Request, res:express.Response) => {
 
 export const createJokePost = async (req:express.Request, res:express.Response) => {
     try {
-        const {author,title,description,tags} = req.body;
+        const {author,title,description,tags, likes, dislikes} = req.body;
 
         if(!title || !description){
             return res.sendStatus(400);
@@ -27,7 +27,9 @@ export const createJokePost = async (req:express.Request, res:express.Response) 
             authorId,
             title,
             description,
-            tags
+            tags,
+            likes,
+            dislikes
         })
 
         return res.status(200).json(joke).end();
