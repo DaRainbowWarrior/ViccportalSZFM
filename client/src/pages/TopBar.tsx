@@ -1,5 +1,4 @@
-import React from 'react';
-import { AppBar, Toolbar, Typography, Button, Box, Container, Stack } from '@mui/material';
+import { AppBar, Toolbar, Box, Container, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../utils/auth';
 
