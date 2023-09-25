@@ -1,137 +1,179 @@
 # Rendszer terv
 
-1. A rendszer célja
-    -
-    A rendszer célja hogy egy webes felületen, anonimként vagy a felhasználói felületbe bejelentkezve, vicceket lehessen megosztani. Ezeket a vicceket tartalmuk szerint kategorizálni lehet, és ezekre a kategóriákra szűrőkkel keresni. A vicceket a felhasználók értékelni is tudják az alapján hogy mennyire vicces. Az alkalmazást csak webes felületen lesz elérhető, nincs tervben Android/IOS app fejlesztése. Az alkalmazás adatbázisban tárolja a vicceket, a kategóriájukat, valamint a felhasználókat
+## A rendszer célja
 
-2. Projektterv
-    -
-    A projektet webes platformra fejlesztük, React alapon, Visual Studio Code IDE-t használva.
+A rendszer célja hogy egy webes felületen, anonimként vagy a felhasználói felületbe bejelentkezve, vicceket lehessen megosztani. Ezeket a vicceket tartalmuk szerint kategorizálni lehet, és ezekre a kategóriákra szűrőkkel keresni. A vicceket a felhasználók értékelni is tudják az alapján hogy mennyire vicces. Az alkalmazást csak webes felületen lesz elérhető, nincs tervben Android/IOS app fejlesztése. Az alkalmazás adatbázisban tárolja a vicceket, a kategóriájukat, valamint a felhasználókat
 
-    A projektet két részre bontottuk: egy ember vállalja a Frontendet (a megjelenített weboldalt, a stílusát, valamint az összes interfészt a viccek felöltésére, kategorizálására, szűrésére, a felhasználói fiók bejelentkezési/regisztrálási felületét), és a második a Backendet (Az oldal mögötti adatbázist, és az adatbázis és frontend közötti kapcsolatokat)
+## Projektterv
 
-    **Felelősségi Körök**
+A projektet webes platformra fejlesztük, React alapon, Visual Studio Code IDE-t használva.
 
-    | Név | Felelősségi Kör | Elvállalt rész |
-    |-----|-----------------|----------------|
-    | Ujvárosi Gergő | Programozó | Frontend |
-    | Hetes Bence | Programozó | Backend |
+A projektet két részre bontottuk: egy ember vállalja a Frontendet (a megjelenített weboldalt, a stílusát, valamint az összes interfészt a viccek felöltésére, kategorizálására, szűrésére, a felhasználói fiók bejelentkezési/regisztrálási felületét), és a második a Backendet (Az oldal mögötti adatbázist, és az adatbázis és frontend közötti kapcsolatokat)
 
-    **Mérföldkövek**
+### Felelősségi Körök
 
-    A projekt legfontosabb mérföldkövei:
-    * A funkcionális terv megírása
-    * A rendszerterv megírása és bemutatása a kliensnek
-    * Az adatbázisok létrehozása
-    * Az adatbázisok kommunikálásához szükséges rendszerek megírása
-    * A főoldal megszerkeztése
-    * A vicc hozzáadási rendszer összekötése az adatbázissal
-    * A Bejelentkezési / Regisztrációs oldal megszerkeztése
-    * A Bejelentkezési / Regisztrációs oldal összekötése az adatbázissal
-    * A kész rendszerek összekötése
-    * A kész rendszer tesztelése
-    * A test log kitöltése
+| Név | Felelősségi Kör | Elvállalt rész |
+|-----|-----------------|----------------|
+| Ujvárosi Gergő | Programozó | Frontend |
+| Hetes Bence | Programozó | Backend |
 
-    **Határidők**
+### Mérföldkövek
 
-    | Mérföldkő | Határidő |
-    |-----------|----------|
-    | A funkcionális terv megírása | Szept. 11 |
-    | A rendszerterv megírása és bemutatása a kliensnek | Szept. 18 |
-    | Az adatbázisok létrehozása | Szept. 25 |
-    | Az adatbázisok kommunikálásához szükséges rendszerek megírása| Szept. 25 |
-    | A főoldal megszerkeztése | Szept. 25 |
-    | A vicc hozzáadási rendszer összekötése az adatbázissal | Szept. 25 |
-    | A Bejelentkezési / Regisztrációs oldal megszerkeztése | Szept. 25 |
-    | A Bejelentkezési / Regisztrációs oldal összekötése az adatbázissal | Szept. 25 |
-    | A kész rendszerek összekötése | Szept. 25 |
-    | A kész rendszer tesztelése | Szept. 25 |
-    | A test log kitöltése | Szept. 25 |
+A projekt legfontosabb mérföldkövei:
 
+* A funkcionális terv megírása
+* A rendszerterv megírása és bemutatása a kliensnek
+* Az adatbázisok létrehozása
+* Az adatbázisok kommunikálásához szükséges rendszerek megírása
+* A főoldal megszerkeztése
+* A vicc hozzáadási rendszer összekötése az adatbázissal
+* A Bejelentkezési / Regisztrációs oldal megszerkeztése
+* A Bejelentkezési / Regisztrációs oldal összekötése az adatbázissal
+* A kész rendszerek összekötése
+* A kész rendszer tesztelése
+* A test log kitöltése
 
-3. Üzleti folyamatok modellje
-    -
-    
+### Határidők
 
-4. Követelmények
-    -
-    Ezeket az üzleti folyamatokat szeretnénk mindenképpen megvalósítani, hogy a rendszer kész és használható legyen:
+| Mérföldkő | Határidő |
+|-----------|----------|
+| A funkcionális terv megírása | Szept. 11 |
+| A rendszerterv megírása és bemutatása a kliensnek | Szept. 18 |
+| Az adatbázisok létrehozása | Szept. 25 |
+| Az adatbázisok kommunikálásához szükséges rendszerek megírása| Szept. 25 |
+| A főoldal megszerkeztése | Szept. 25 |
+| A vicc hozzáadási rendszer összekötése az adatbázissal | Szept. 25 |
+| A Bejelentkezési / Regisztrációs oldal megszerkeztése | Szept. 25 |
+| A Bejelentkezési / Regisztrációs oldal összekötése az adatbázissal | Szept. 25 |
+| A kész rendszerek összekötése | Szept. 25 |
+| A kész rendszer tesztelése | Szept. 25 |
+| A test log kitöltése | Szept. 25 |
 
-    **Funkcionális követelmények:**
+## Üzleti folyamatok modellje
 
-    **Regisztráció:**
-    - A felhasználónak kell tudnia egy saját fiókot létrehoznia, egy tetszőleges felhasználónév és jelszó felhasználásával. Egy felhasználónév egyszerre csak egy alkalommal lehet regisztrálva, ezzel biztosítva minden összezavarodás elkerülését.
+### Üzleti Szereplők
 
-    **Bejelentkezés:**
-   - A felhasználónak be kell tudnia jelentkezni a saját fiókjába, a regisztrációnál megadott felhasználónév és jelszó segítségével
+1. Felhasználó: Vicc készítési jogosultságokkal rendelkező felhasználó, aki létrehoz vicceket, és használja az alkalmazást.
+2. Admin: Moderátori jogosultságokkal rendelkezik, felügyelve a megosztott tartalmat.
 
-    **Vicc Posztolás Fiókba bejelentkezve:**
-   - A felhasználónak lehetősége kell legyen a fiókjába belépve, a saját felhasználónevéhez csatolva egy viccet feltölteni az oldalra.
+### Üzleti Folyamatok
 
-    **Vicc Posztolás anonimként:**
-    - A felhasználónak lehetősége kell legyen anonim módon, "Anonymous" felhasználónévhez csatolva egy viccet feltölteni az oldalra.
+1. **Viccek létrehozása:** Egy form kitöltése, mely összerak egy Vicc posztot. Az eseményt az alkalmazás felhasználói felülete indítja.
+    * Input: Felhasználói input
+    * Output: Vicc kerül posztolásra, mentve az adatbázisunkban, megjelenik az idővonalon.
+    * Szereplők: Felhasználó, Kliens, Szerver, MongoDb adatbázis
+2. **Vicc Értékelése**: Vicceken elhelyezett tetszik/nemtetszik gomb megnyomásával értékeljük a posztot.
+    * Input: Felhasználói input
+    * Output: Vicc értékelése változik, ezt mentve az adatbázisunkban, megjelenik az idővonalon.
+    * Szereplők: Felhasználó, Kliens, Szerver, MongoDb adatbázis
+3. **Tárolt Viccek Böngészése**: Vicceket végtelen görgetésként böngészhetjük az oldalon.
+    * Input: Felhasználói input (weboldal az aljára gördül)
+    * Output: A következő oldalnyi viccek kerülnek lekérdezésre és megjelenítv az oldalon.
+    * Szereplők: Felhasználó, Kliens, Szerver, MongoDb adatbázis
 
-    **Vicc Értékelés:**
-   - A felhasználóknak lehetőségük kell legyen arra, hogy bejelentkezve a fiókjukba, vagy anonim módon értékelni más felhaszálók által posztolt vicceket értékelni pozitívan vagy negatívan.
+## Követelmények
 
-    **Viccek Kategorizálása:**
-    - A felhasználónak lehetősége kell legyen, bejelentkezve fiókjába vagy anonim módon, vicce posztolása előtt, egy kategóriát adni a viccnek, hogy más felhasználók szűrők segítségével könnyen megtalálhassák.
+### Regisztráció
 
-    **Viccek szűrése:**
-    - A felhasználónak lehetősége kell legyen, bejelentkezve fiókjába, vagy anonim módon, kategóriák, posztolási idő vagy értékelés alapján szűrni a vicceket és csak azokat látni, amelyek megfelelnek ezeknek a kategóriáknak.
+* A felhasználónak kell tudnia egy saját fiókot létrehoznia, egy tetszőleges felhasználónév és jelszó felhasználásával. Egy felhasználónév egyszerre csak egy alkalommal lehet regisztrálva, ezzel biztosítva minden összezavarodás elkerülését.
 
-    **Nem funkcionális követelmények:**
+### Bejelentkezés
 
-    **Adatvédelem**
-    - Az oldalon bejelentkezett, fiókkal rendelkező felhasználók csakis a saját maguk által posztolt vicceket tudják módosítani, azaz szerkeszthetik vagy frissíthetik azokat. Ez azt jelenti, hogy minden felhasználó kizárólagos jogot élvez az általa közzétett tartalmakhoz, és csak ők rendelkeznek jogosultsággal azok módosításához vagy javításához. Ezenkívül csak a saját maguk által posztolt viccekhez tudnak tulajdonítani kategóriákat vagy címkéket.  Ezzel együtt a rendszer biztosítja, hogy minden felhasználó teljes kontrollal rendelkezzen saját tartalmai felett.
+* A felhasználónak be kell tudnia jelentkezni a saját fiókjába, a regisztrációnál megadott felhasználónév és jelszó segítségével
 
-    - A rendszer fejlesztői, illetve karbantartói semmilyen személyes információhoz ne férjenek hozzá a felhasználóktól, mint például a fiókok jelszavaihoz vagy más érzékeny adatokhoz. Az ilyen adatok teljes biztonságban kell maradniuk, és nem szabad megengedni, hogy bárki is jogosulatlanul hozzáférjen hozzájuk.
+### Vicc Posztolás Fiókba bejelentkezve
 
-    - A rendszernek meg kell felelnie a GDPR-nek, vagyis az Európai Unió által meghatározott Általános Adatvédelmi Rendeletnek. Ez azt jelenti, hogy az alkalmazásnak vagy rendszernek szigorú adatvédelmi és adatkezelési szabályoknak kell megfelelnie annak érdekében, hogy biztosítsa a felhasználók személyes adatainak biztonságát és magánéleti jogainak védelmét. A GDPR előírja, hogy a felhasználóknak teljes átláthatóságot kell biztosítani az adatok gyűjtése és kezelése terén, és csak azokat az adatokat lehet felhasználni, amelyekhez a felhasználók kifejezetten hozzájárultak. Emellett a rendszernek képesnek kell lennie az adatok védelmére és az adatvesztés megelőzésére, és meg kell felelnie azoknak a jogi kötelezettségeknek, amelyek az adatok kezelésével kapcsolatban előírásokat tartalmaznak. 
+* A felhasználónak lehetősége kell legyen a fiókjába belépve, a saját felhasználónevéhez csatolva egy viccet feltölteni az oldalra.
 
-5. Funkcionális terv
-    -
+### Vicc Posztolás anonimként
 
-6. Fizikai környezet
-    -
-    * Az alkalmazás webes felületre készült, kizárólag PC (számítógép) eszközökre, de minden modern internet-képes ezközön hozzáférhető és használható az oldal
-    * Van tűzfal a hálózaton és minden portot is engedélyez.
-    * Megvásárolt komponenseneket nem használ az alkalmazás; minden saját fejlesztésű vagy ingyenesen használható komponens
-    * Fejlesztői eszközök:
-        * Visual Studio Code
-        * Github
-        * Draw.io
+* A felhasználónak lehetősége kell legyen anonim módon, "Anonymous" felhasználónévhez csatolva egy viccet feltölteni az oldalra.
 
-7. Absztrakt domain modell
-    -
+### Vicc Értékelés
 
-8. Architekturális terv
-    -
-    **Backend**
-    - 
+* A felhasználóknak lehetőségük kell legyen arra, hogy bejelentkezve a fiókjukba, vagy anonim módon értékelni más felhaszálók által posztolt vicceket értékelni pozitívan vagy negatívan.
 
-    **Frontend**
-    - 
+### Viccek Kategorizálása
 
-9. Adatbázis terv
-    -
+* A felhasználónak lehetősége kell legyen, bejelentkezve fiókjába vagy anonim módon, vicce posztolása előtt, egy kategóriát adni a viccnek, hogy más felhasználók szűrők segítségével könnyen megtalálhassák.
 
-10. Implementációs terv
-    -
-    - A rendszer webes felülete HTML, CSS és JavaScript nyelven fog készülni, a React keretrendszer segítségével. Az alkalmazás egy React App formájában fog létrejönni, amely egybevonja ennek a három nyelvnek a használatát egy fájlban, így rendkívül átlátható és könnyen követhető lesz a kódstruktúra. Az egyes nyelvek kombinálása lehetővé teszi számunkra, hogy dinamikus és interaktív felhasználói felületet hozzunk létre.
+### Viccek szűrése
 
-    - Ezenkívül az alkalmazás képes lesz hatékonyan kommunikálni a backendben jelenlévő adatbázisokkal. A szerveroldali adatbázisokhoz való könnyű és hatékony hozzáférés lehetővé teszi az alkalmazásnak, hogy dinamikusan frissítse és jelenítse meg a tartalmat a felhasználók számára. Ezáltal a felhasználók számára egy gyors és reaktív élményt nyújtva.
+* A felhasználónak lehetősége kell legyen, bejelentkezve fiókjába, vagy anonim módon, kategóriák, posztolási idő vagy értékelés alapján szűrni a vicceket és csak azokat látni, amelyek megfelelnek ezeknek a kategóriáknak.
 
-    - A HTML, CSS és JavaScript kombinálása a React keretrendszerrel alkalmazásának  rugalmas felépítését teszi lehetővé, amely lehetővé teszi a felhasználók számára az egyszerű interakciót az alkalmazásban, miközben a háttérben az adatok hatékonyan kezelhetők és frissíthetők.
+## Nem funkcionális követelmények
 
-11. Tesztterv
-    -
+### Adatvédelem  
 
+* Az oldalon bejelentkezett, fiókkal rendelkező felhasználók csakis a saját maguk által posztolt vicceket tudják módosítani, azaz szerkeszthetik vagy frissíthetik azokat. Ez azt jelenti, hogy minden felhasználó kizárólagos jogot élvez az általa közzétett tartalmakhoz, és csak ők rendelkeznek jogosultsággal azok módosításához vagy javításához. Ezenkívül csak a saját maguk által posztolt viccekhez tudnak tulajdonítani kategóriákat vagy címkéket.  Ezzel együtt a rendszer biztosítja, hogy minden felhasználó teljes kontrollal rendelkezzen saját tartalmai felett.
 
-12. Telepítési terv
-    -
-    Az alkalmazás webes felületen fut, ezért egy ajánlott böngésző telepítése után (például Google Chrome, Firefox, Opera vagy Safari), csak egyszerűen meg kell nyitni a böngészőt, majd a megfelelő linkre kattintva elérhetővé válik a szolgáltatás. Ezen felül nincs szükség bonyolult telepítési folyamatokra vagy alkalmazások letöltésére, így könnyedén és gyorsan hozzáférhet az alkalmazáshoz, bárhol és bármikor, amikor internetkapcsolat áll rendelkezésre. Ez a kényelmes és könnyen hozzáférhető módja az alkalmazás használatának, amely megkönnyíti a felhasználók számára a gyors bejelentkezést és a hasznos funkciók elérését.
+* A rendszer fejlesztői, illetve karbantartói semmilyen személyes információhoz ne férjenek hozzá a felhasználóktól, mint például a fiókok jelszavaihoz vagy más érzékeny adatokhoz. Az ilyen adatok teljes biztonságban kell maradniuk, és nem szabad megengedni, hogy bárki is jogosulatlanul hozzáférjen hozzájuk.
 
-13. Karbantartási terv
-    -
-    Az alkalmazás karbantartását a felhasználók által jelentett problémák javítása, a háttérben futó szerver és adatbázis fenntartása, valamint a kliensek által kért módosítások és fejlesztések megvalósítása jelenti. Minden egyes probléma vagy hiba, amit a felhasználók jelentenek, fontos visszajelzés a fejlesztők számára, és az alkalmazás stabilitásának és funkcionalitásának javításához vezethet. Emellett a klienseknek lehetnek egyedi igényeik és javaslataik az alkalmazás továbbfejlesztése terén, és ezeket az igényeket általában megbeszélik és értékelik a fejlesztőkkel, hogy az alkalmazás még jobban megfeleljen a felhasználók elvárásainak és igényeinek. Ez a folyamatos karbantartási és fejlesztési munka biztosítja, hogy az alkalmazás mindig naprakész és felhasználóbarát legyen.
+* A rendszernek meg kell felelnie a GDPR-nek, vagyis az Európai Unió által meghatározott Általános Adatvédelmi Rendeletnek. Ez azt jelenti, hogy az alkalmazásnak vagy rendszernek szigorú adatvédelmi és adatkezelési szabályoknak kell megfelelnie annak érdekében, hogy biztosítsa a felhasználók személyes adatainak biztonságát és magánéleti jogainak védelmét. A GDPR előírja, hogy a felhasználóknak teljes átláthatóságot kell biztosítani az adatok gyűjtése és kezelése terén, és csak azokat az adatokat lehet felhasználni, amelyekhez a felhasználók kifejezetten hozzájárultak. Emellett a rendszernek képesnek kell lennie az adatok védelmére és az adatvesztés megelőzésére, és meg kell felelnie azoknak a jogi kötelezettségeknek, amelyek az adatok kezelésével kapcsolatban előírásokat tartalmaznak.
+
+## Funkcionális terv
+
+### Rendszer Szereplők
+
+* Felhasználók, akik a tartalmat gyártják, konszumálják.
+
+### Rendszerhasználati esetek
+
+* Viccek megosztása
+
+* Viccek keresése
+
+## Fizikai környezet
+
+* Az alkalmazás webes felületre készült, kizárólag PC (számítógép) eszközökre, de minden modern internet-képes ezközön hozzáférhető és használható az oldal
+* Van tűzfal a hálózaton és minden portot is engedélyez.
+* Megvásárolt komponenseneket nem használ az alkalmazás; minden saját fejlesztésű vagy ingyenesen használható komponens
+* Fejlesztői eszközök:
+  * Visual Studio Code
+  * Github
+  * Draw.io
+
+## Absztrakt domain modell
+
+Az alkalmazás absztrakt domain modelljének leírása.
+
+* Felhasználók: A rendszerben regisztrált felhasználók.
+* Moderátorok: Az moderátori jogosultsággal rendelkező felhasználók.
+
+## Architekturális terv
+
+### Frontend
+
+* React
+* MUI
+
+### Backend
+
+* Express
+* MongoDB
+
+## Adatbázis terv
+
+* Dokumentum alapú MongoDB adatbázis, mely Mongo Compass által hosztolva van.
+
+## Implementációs terv
+
+* A rendszer webes felülete HTML, CSS és JavaScript nyelven fog készülni, a React keretrendszer segítségével. Az alkalmazás egy React App formájában fog létrejönni, amely egybevonja ennek a három nyelvnek a használatát egy fájlban, így rendkívül átlátható és könnyen követhető lesz a kódstruktúra. Az egyes nyelvek kombinálása lehetővé teszi számunkra, hogy dinamikus és interaktív felhasználói felületet hozzunk létre.
+
+* Ezenkívül az alkalmazás képes lesz hatékonyan kommunikálni a backendben jelenlévő adatbázisokkal. A szerveroldali adatbázisokhoz való könnyű és hatékony hozzáférés lehetővé teszi az alkalmazásnak, hogy dinamikusan frissítse és jelenítse meg a tartalmat a felhasználók számára. Ezáltal a felhasználók számára egy gyors és reaktív élményt nyújtva.
+
+* A HTML, CSS és JavaScript kombinálása a React keretrendszerrel alkalmazásának  rugalmas felépítését teszi lehetővé, amely lehetővé teszi a felhasználók számára az egyszerű interakciót az alkalmazásban, miközben a háttérben az adatok hatékonyan kezelhetők és frissíthetők.
+
+## Tesztterv
+
+* Manuális Tesztek
+  * A kliens felhasználói felületét teszteljük
+  * A szerver egyéb funkcióit, felállását teszteljük
+
+## Telepítési terv
+
+Az alkalmazás webes felületen fut, ezért egy ajánlott böngésző telepítése után (például Google Chrome, Firefox, Opera vagy Safari), csak egyszerűen meg kell nyitni a böngészőt, majd a megfelelő linkre kattintva elérhetővé válik a szolgáltatás. Ezen felül nincs szükség bonyolult telepítési folyamatokra vagy alkalmazások letöltésére, így könnyedén és gyorsan hozzáférhet az alkalmazáshoz, bárhol és bármikor, amikor internetkapcsolat áll rendelkezésre. Ez a kényelmes és könnyen hozzáférhető módja az alkalmazás használatának, amely megkönnyíti a felhasználók számára a gyors bejelentkezést és a hasznos funkciók elérését.
+
+## Karbantartási terv
+
+Az alkalmazás karbantartását a felhasználók által jelentett problémák javítása, a háttérben futó szerver és adatbázis fenntartása, valamint a kliensek által kért módosítások és fejlesztések megvalósítása jelenti. Minden egyes probléma vagy hiba, amit a felhasználók jelentenek, fontos visszajelzés a fejlesztők számára, és az alkalmazás stabilitásának és funkcionalitásának javításához vezethet. Emellett a klienseknek lehetnek egyedi igényeik és javaslataik az alkalmazás továbbfejlesztése terén, és ezeket az igényeket általában megbeszélik és értékelik a fejlesztőkkel, hogy az alkalmazás még jobban megfeleljen a felhasználók elvárásainak és igényeinek. Ez a folyamatos karbantartási és fejlesztési munka biztosítja, hogy az alkalmazás mindig naprakész és felhasználóbarát legyen.

@@ -1,5 +1,5 @@
 import { get } from 'lodash';
-import { createJoke, deleteJokeById, getJokeById, getJokes, getJokesByAuthorId, rateJoke } from '../db/jokes';
+import { createJoke, deleteJokeById, getCountOfJokes, getJokeById, getJokes, getJokesByAuthorId, getJokesWithPagination, rateJoke } from '../db/jokes';
 import express from 'express'
 
 export const getAllJokes =async (req:express.Request, res:express.Response) => {
@@ -14,7 +14,7 @@ export const getAllJokes =async (req:express.Request, res:express.Response) => {
 
 export const createJokePost = async (req:express.Request, res:express.Response) => {
     try {
-        const {author,title,description,tags} = req.body;
+        const {author,title,description,tags, likes, dislikes} = req.body;
 
         if(!title || !description){
             return res.sendStatus(400);
@@ -27,7 +27,9 @@ export const createJokePost = async (req:express.Request, res:express.Response) 
             authorId,
             title,
             description,
-            tags
+            tags,
+            likes,
+            dislikes
         })
 
         return res.status(200).json(joke).end();
@@ -87,6 +89,33 @@ export const getAllJokesByUserId = async (req:express.Request, res:express.Respo
         const jokesOfUser = await getJokesByAuthorId(id);
 
         return res.json(jokesOfUser);
+    } catch (error) {
+        console.log(error);
+        return res.sendStatus(400)
+    }
+}
+
+export const getJokesPaginated =async (req:express.Request, res:express.Response) => {
+    try {
+        const { page = 1, limit = 10 } = req.query;
+        const pageNumber = parseInt(page as string);
+        const limitNumber = parseInt(limit as string);
+    
+        const skip = (pageNumber - 1) * limitNumber;
+    
+        const data = await getJokesWithPagination(skip, limitNumber);
+    
+        const totalCount = await getCountOfJokes();
+    
+        const totalPages = Math.ceil(totalCount / limitNumber);
+    
+        const pagination = {
+          totalItems: totalCount,
+          totalPages,
+          currentPage: pageNumber,
+        };
+    
+        res.json({ data, pagination });
     } catch (error) {
         console.log(error);
         return res.sendStatus(400)

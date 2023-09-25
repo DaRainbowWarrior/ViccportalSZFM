@@ -16,27 +16,27 @@
 
 - `/users` gives back all users in database
 
-    ```javascript
-    {
-        "_id",
-        "username",
-        "email"
-    }
-    ```
+```javascript
+{
+    "_id",
+    "username",
+    "email"
+}
+```
 
 - `/jokes` gives back all jokes in database
 
-    ```javascript
-    {
-        "likes"
-        "dislikes"
-        "_id",
-        "author",
-        "title",
-        "description",
-        "tags"
-    }
-    ```
+```javascript
+{
+    "likes"
+    "dislikes"
+    "_id",
+    "author",
+    "title",
+    "description",
+    "tags"
+}
+```
 
 - `/jokes/user/:id` gives back all jokes made by user of `id`
 
@@ -50,7 +50,8 @@ Post Body:
 {
     "title",
     "description",
-    "author" --Optional
+    "author" --Optional,
+    "tags" --Optional
 }
 ```
 
