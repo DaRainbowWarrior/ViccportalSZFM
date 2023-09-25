@@ -6,14 +6,14 @@
 
    Ezen vicc posztokat a felhasználók értékelhetik, megjelenítve az értékelések számát és értékét.
 
-## Jelenlegi helyzet 
+## Jelenlegi helyzet
 
    Kovács Béla egy nagyon tehetséges vicc gyűjtő és költő, aki az összes szabadidejét a legjobb viccek feltárására és azok dokumentálására fordítja. Jelenleg papíron tárolja az eddig gyűjtött vicceit, és szóbeszéd segítségével bővíti a vicctárát. A füzetben a viccek a feljegyzés dátumával és annak a nevével akitől Béla hallotta a viccet vannak eltárolva. A viccek egy szóval vannak kategorizálva ( Székely, anyós, favicc).
 
 ## Vágyálom rendszer
 
    A célunk egy olyan közösségi portál létrehozása,
-   mely egy egyszerű, intuitív felhasználói 
+   mely egy egyszerű, intuitív felhasználói
    felület által kapcsolja össze felhasználóit
    közösség által készített tartalmaival.
 
@@ -23,18 +23,20 @@
 
 ## Jelenlegi üzleti folyamatok
 
-   - **Vicc beküldése**: A viccportál jelenleg lehetővé teszi a felhasználóknak, hogy kézzel beküldjenek vicceket az oldalra. Ezt egy online űrlap segítségével tehetik meg.
+- **Vicc beküldése**: A viccportál jelenleg lehetővé teszi a felhasználóknak, hogy kézzel beküldjenek vicceket az oldalra. Ezt egy online űrlap segítségével tehetik meg.
 
-   - **Vicc megosztása**: A felhasználók láthatják és megoszthatják vicceiket másokkal.
+- **Vicc megosztása**: A felhasználók láthatják és megoszthatják vicceiket másokkal.
 
-   - **Felhasználói értékelések**: A felhasználók értékelhetik a vicceket, lájkokkal vagy diszlike-okkal.
+- **Felhasználói értékelések**: A felhasználók értékelhetik a vicceket, lájkokkal vagy diszlike-okkal.
 
-   ### A viccportál által kínált megoldás:
+### A viccportál által kínált megoldás
 
    A viccportál egy olyan platformot kínálhat, ahol a felhasználók saját maguk tölthetnek fel vicceket. A viccek megosztását azonnal lehetővé tehetik, és a felhasználók valós idejű értékeléseket adhatnak rájuk. Ezenkívül a felhasználók közösségi élményben részesülhetnek, és könnyen megoszthatják kedvenc vicceiket.
 
    A viccportál megközelítése modernizálná és felgyorsítaná a viccek közzétételét és megosztását, javítva ezzel a felhasználói élményt.
+
 ## Igényelt üzleti folyamatok
+
 1. **Regisztráció:**
    - Szeretnék regisztrálni a weboldalon felhasználóként, ahol megadhatok alapvető regisztrációs információkat, például felhasználónév, jelszó és e-mail cím.
 
@@ -51,10 +53,15 @@
    - Az oldalon könnyen és hatékonyan szeretnék vicceket böngészni. Kategóriák, címkék segítségével szeretném megtalálni a számomra legérdekesebb vicceket.y
 
 ## Igényelt üzleti folyamatok modellje
+
    ![Igényelt üzleti folyamatok modellje](uzletimodell.drawio.png)
+
 ## A rendszerre vonatkozó szabályok
+
 A web felület szabványos ezközökkel készüljön, React és MongoDB segítségével. A felhasználó adatkezelése a GDPR-nek ( General Data Protection Regulation ) meg kell feleljen. A dátumok éééé/hh/nn óó:pp formátumban kell megjelenjenek. A fiók nélküli felhasználók bejegyzései "Anonymous"-ként kell megjelenjenek.
+
 ## Követelménylista
+
 | ID | Név                          | Kifejtés                                                                                               |
 |----|------------------------------|--------------------------------------------------------------------------------------------------------|
 | k1 | Viccek megjelenítése          | A programnak könnyen érthető módon meg kell jelenítenie a vicceket a felhasználóknak.               |
@@ -63,4 +70,3 @@ A web felület szabványos ezközökkel készüljön, React és MongoDB segíts�
 | k4 | Vicc értékelése               | A felhasználóknak lehetőséget kell biztosítani az egyes viccek értékelésére, például "tetszik" vagy "nem tetszik" gombokkal. |
 | k5 | Vicc megosztása               | A felhasználóknak lehetőséget kell biztosítani a viccek közösségi médiában történő megosztására.         |
 | k6 | Felhasználói értékelések      | A programnak képesnek kell lennie követni a felhasználók viccekkel kapcsolatos értékeléseit, és ezt visszaállítani azoknak, akik visszaélnek az értékelési lehetőséggel. |
-
