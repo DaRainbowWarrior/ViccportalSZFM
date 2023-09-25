@@ -47,9 +47,18 @@ function CreatePost() {
     };
 
     const names = [
-        "Vicc",
-        "budos"
+      "funny",
+      "random",
+      "humor",
+      "gardening",
+      "jokes",
+      "laughter",
+      "comedy",
+      "entertainment",
+      "laughs",
+      "amusement"
     ]
+    
 
     return (
         <>
