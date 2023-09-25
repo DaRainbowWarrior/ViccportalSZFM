@@ -166,12 +166,9 @@ Az alkalmazás absztrakt domain modelljének leírása.
 
 ## Tesztterv
 
-Tesztelésünket két kategóriára bontjuk:
-
-* Unit Tesztek
-  * Ezekkel a szerver metódusait teszteljük
 * Manuális Tesztek
-  * A kliens felhasználói felületét teszteljük vele
+  * A kliens felhasználói felületét teszteljük
+  * A szerver egyéb funkcióit, felállását teszteljük
 
 ## Telepítési terv
 
