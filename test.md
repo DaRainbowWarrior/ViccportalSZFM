@@ -22,3 +22,13 @@
 | T18 | 2023.09.25 | Hetes Bence | Szerver - Felhasználót belépteti | A `/auth/login` oldalnak küldött POST request `PostBody` értékei alapján beléptetio felhasználót és visszaküld egy SessionTokent | Felhasználó beléptetve, SessionToken visszakapva | ✅ |
 | T19 | 2023.09.25 | Gergő Ujvárosi | Kliens - Felértékelés gomb | Eggyel növeli a felértékelések számát egy nyomásra / második megnyomásnál egyel csökkenti | Gombnyomásra csökkent/nőtt az érték | ✅ |
 | T20 | 2023.09.25 | Gergő Ujvárosi | Kliens - Leértékelés gomb | Eggyel csökkenti a felértékelések számát egy nyomásra / második megnyomásnál egyel növeli  | Gombnyomásra csökkent/nőtt az érték | ✅ |
+| T21 | 2023.09.25 | Hetes Bence | Kliens - Welcome szöveg | A felhasználó bejelentkezésekor userData-ból kinyerve a username megjelenik egy welcome szövegben | Username megjelent | ✅ |
+| T22 | 2023.09.25 | Hetes Bence | Kliens - Vicc létrehozása tag-ekkel |  Vicc létrehozásakor tag-eket mulitselect-ként hozzá adjuk a vicchez | Tagek megjelennek a vicc posztban | ✅ |
+| T23 | 2023.09.25 | Hetes Bence | Kliens - Vicc létrehozása anonym szerzővel | Anonym posztolás bepipálásakor a poszt szerzője 'Anonymous' | A poszt szerzője 'Anonymous' | ✅ |
+| T24 | 2023.09.25 | Hetes Bence | Kliens - Home Gomb minden oldalon | A home gomb minden oldalon átirányit a `/` oldalra | Átirányítva minden oldalon | ✅ |
+| T25 | 2023.09.25 | Hetes Bence | Kliens - Végtelen görgetés véges tartalommal | Ha az adatbázis kifogy a viccekből, előről kezdi őket | Viccek körbeérnek | ✅ |
+| T26 | 2023.09.25 | Hetes Bence | Szerver - Csak bejelentkezve készíthető új vicc | Vicc mentése csak megfelelő `SessionToken`-el lehetséges | `Forbidden` válasz `SessionToken` hiányában | ✅ |
+| T27 | 2023.09.25 | Hetes Bence | Szerver - Jelszavak Hashelve mentődnek | Jelszavaknak csupán a hash-ét tároljuk biztonságos módon | Hash eltárolva | ✅ |
+| T28 | 2023.09.25 | Hetes Bence | Szerver - Bejelentkezéskor `SessionToken` visszaküldése | Bejelentkezéskor a visszaadott JSON tartalmazza a `SessionToken`-t | `SessionToken` visszaküldve | ✅ |
+| T29 | 2023.09.25 | Hetes Bence | Szerver - Vicc értékelése | `/jokes/:id/rate`-re küldött POST request növeli/csökkenti az adatbázisban található vicc értékelését | Értékelés megváltozva | ✅ |
+| T30 | 2023.09.25 | Hetes Bence | Szerver - Vicc értékelés megkülönböztetése | `/jokes/:id/rate`-re küldött POST request `POST body`-ban található `ratingType` meghatározza az értékelés fajtáját | `ratingType: "like"` lájkolja a posztot, `ratingType: "dislike"` diszlájkolja a posztot | ✅ |
